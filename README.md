@@ -1,51 +1,50 @@
-# Artem Bondarenko
+# Cyborg Undefined
 
-QA Automation Engineer focused on C#/.NET, API-heavy systems, browser automation, and practical AI-assisted workflows.
+**QA Automation Engineer** — API testing, browser automation, bots, and AI-assisted workflows.
 
-![My Codewarrior Profile Badge](https://www.codewars.com/users/BondarenkoCom/badges/large)
+Python · C#/.NET · Playwright · Selenium · NUnit · RestSharp · Telegram Bot API · OpenAI/Grok · Docker · SQLite
 
-## What I Work On
+---
 
-- API and UI test automation for SaaS and web platforms
-- QA infrastructure for regression confidence, release checks, and defect isolation
-- Internal automation tools that connect data collection, normalization, and delivery
-- AI-assisted workflows where LLMs are used as controlled components, not as vague magic
+## What I Build
 
-## Focus Areas
+- **API test suites** — REST + GraphQL coverage in C#/.NET and Python
+- **Browser automation** — Playwright, Selenium, Page Object patterns
+- **Telegram bots** — scrapers, lead delivery, payment flows, operational alerts
+- **AI workflow wiring** — structured LLM outputs, validation, approval steps, cost control
+- **CI pipelines** — Docker, Bitbucket Pipelines, GitLab CI, Jenkins
 
-- `C# / .NET`
-- `NUnit`
-- `RestSharp`
-- `Playwright`
-- `Selenium`
-- `API testing`
-- `Telegram bots`
-- `workflow automation`
-
-## Selected Public Projects
+## Selected Projects
 
 ### [AIJobSearcher](https://github.com/BondarenkoCom/AIJobSearcher)
-
-Public-safe automation toolkit for collecting, normalizing, and delivering remote-job leads through Telegram. Built around Python, Playwright, SQLite, and a productized bot flow.
+Automation system that collects remote job leads, normalizes them in SQLite, scores with AI, and delivers through a Telegram bot with Telegram Stars payments.
+`Python` `SQLite` `Playwright` `Telegram Bot API` `OpenAI` `Grok`
 
 ### [RestApiTests](https://github.com/BondarenkoCom/RestApiTests)
+Compact .NET API test suite using NUnit and HttpClient. Demonstrates request construction, JSON validation, and reusable test structure.
+`C#` `.NET 6` `NUnit` `HttpClient`
 
-Lightweight .NET API test project using NUnit and HttpClient against public endpoints. Useful as a compact example of API-focused QA automation structure.
+### [MPNerveBot](https://github.com/BondarenkoCom/MPNerveBot)
+Telegram-first operations bot for marketplace sellers — daily digests, stock alerts, review tracking, SQLite persistence.
+`Python` `Telegram Bot API` `SQLite`
 
 ### [QaAutomationWebSocketProject](https://github.com/BondarenkoCom/QaAutomationWebSocketProject)
+QA automation for WebSocket behavior and real-time event validation in .NET.
+`C#` `.NET` `WebSocket`
 
-Exploratory QA automation work around WebSocket-driven behavior and event validation in .NET.
+### [SeleniumPageObjectExample](https://github.com/BondarenkoCom/SeleniumPageObjectExample)
+Clean Page Object pattern implementation for UI test automation in C# with Selenium.
+`C#` `Selenium` `NUnit`
 
-### [ShodanBot](https://github.com/BondarenkoCom/ShodanBot)
+## How I Work
 
-Security-oriented bot project built around Shodan-based data workflows and automation experiments.
+- Fixed-scope tasks preferred — one problem, one clear outcome
+- Evidence first, then fix
+- Structured handoff that another engineer can continue
+- $20–25/hr or fixed price
 
-## Working Style
+## Links
 
-- I prefer working systems over presentation-only demos
-- I care about clarity, repeatability, and maintenance cost
-- I usually build from the critical path first, then tighten structure and polish
-
-## Profile Notes
-
-This profile mixes QA automation work, internal tooling, and experiments around bots, AI workflows, and product ideas. Some repositories are intentionally compact and act as focused public snapshots rather than full private production systems.
+- **Portfolio & services:** [artem-proof-hub.onrender.com](https://artem-proof-hub.onrender.com)
+- **Upwork:** [upwork.com/freelancers/artemb54](https://www.upwork.com/freelancers/artemb54)
+- **LinkedIn:** [linkedin.com/in/artem-bondarenko-79146b185](https://linkedin.com/in/artem-bondarenko-79146b185)
