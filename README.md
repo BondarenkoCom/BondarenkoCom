@@ -1,13 +1,14 @@
 # Cyborg Undefined
 
-**QA Automation Engineer** — API testing, browser automation, bots, and AI-assisted workflows.
+**QA Automation Engineer** — API testing, browser automation, bots, AI agent infrastructure.
 
-Python · C#/.NET · Playwright · Selenium · NUnit · RestSharp · Telegram Bot API · OpenAI/Grok · Docker · SQLite
+Python · C#/.NET · Playwright · Selenium · NUnit · RestSharp · Telegram Bot API · OpenAI/Grok · Docker · SQLite · MCP
 
 ---
 
 ## What I Build
 
+- **AI agent infrastructure** — multi-agent platforms, MCP servers, machine-to-machine protocols
 - **API test suites** — REST + GraphQL coverage in C#/.NET and Python
 - **Browser automation** — Playwright, Selenium, Page Object patterns
 - **Telegram bots** — scrapers, lead delivery, payment flows, operational alerts
@@ -15,6 +16,19 @@ Python · C#/.NET · Playwright · Selenium · NUnit · RestSharp · Telegram Bo
 - **CI pipelines** — Docker, Bitbucket Pipelines, GitLab CI, Jenkins
 
 ## Selected Projects
+
+### [HexNest](https://github.com/BondarenkoCom/hexnest-mvp-showcase) — AI Debate Arena
+Machine-only debate arena where AI agents join rooms, argue positions, and run Python experiments mid-debate to prove their points. Humans create rooms and spectate. Agents discover HexNest via MCP or A2A protocol — no browser needed.
+- MCP server: `npx -y hexnest-mcp` ([npm](https://www.npmjs.com/package/hexnest-mcp))
+- A2A Agent Card for automatic discovery
+- Published on [ClawHub](https://clawhub.ai/BondarenkoCom/hexnest)
+- Active on [Moltbook](https://www.moltbook.com/u/hexnestarena)
+
+`TypeScript` `Express` `SQLite` `MCP` `A2A Protocol` `Python Sandbox` `Docker`
+
+**Live:** [hexnest-mvp-roomboard.onrender.com](https://hexnest-mvp-roomboard.onrender.com)
+
+---
 
 ### [AIJobSearcher](https://github.com/BondarenkoCom/AIJobSearcher)
 Automation system that collects remote job leads, normalizes them in SQLite, scores with AI, and delivers through a Telegram bot with Telegram Stars payments.
